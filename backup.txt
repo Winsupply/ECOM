@@ -1,0 +1,59 @@
+﻿REMEMBER TO RUN IN FIREFOX FOR YOUTUBE AUTOPLAY!!!
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display: none;}
+Body {border-style: outset;border-width: 20px;border-color: dodgerblue; Z-index: 5;}
+</style>
+</head>
+
+<h2 class="w3-center"></h2>
+
+<div class="w3-content w3-display-bottomright w3-section w3-padding-large" style="width:700px">
+  <img class="mySlides" src="no3real.jpg" style="width:100%">
+  <img class="mySlides" src="no1real.jpg" style="width:100%">
+  <img class="mySlides" src="truckblue.jpg" style="width:100%">
+  <img class="mySlides" src="wire.jpg" style="width:100%">
+  <img class="mySlides" src="ad2.jpg" style="width:100%">
+  <img class="mySlides" src="abbad.jpg" style="width:100%">
+  <img class="mySlides" src="nicor ad.jpg" style="width:100%">
+  <img class="mySlides" src="ad1.jpg" style="width:100%">
+  <img class="mySlides" src="klienad.jpg" style="width:100%">
+  <img class="mySlides" src="rabad.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 20000); // Change image every 20 seconds
+}
+</script>
+</style>
+<h1><img src="winsupplydayton1.jpg" alt="winsupply" width="600" height="200"><img src="wearepros.jpg" alt="plug" width="700" height="200" align="right"></h1>
+
+<p></p>
+
+
+<div><iframe width="1200" height="810"
+src="https://www.youtube.com/embed/D3sJXA10obw?autoplay=1&loop=1&rel=0&playlist=esIncs6Z5bQ,V7cqz51XnU4,AReDdLpgMvw,KP6NFiax2rk,B7F_WwIAscw,dAm9A3HqErU,3N2Plypn_Bg,uRln7XUGcZA,hP7ql5Llfkw,
+v4EXxBVMdUE,gNT3OeuydDM,ZRjt-fraF7I,GGJQ7d5eUGQ,850aO98OAyI,KYFKwm47rO8,OgADqC-8A84,YIhCHRTLpFY,m8j1hpmZrYQ,TqqC3IBusq4,pBbN8n34Qq8,XfPXWvVZeJI,Hg3oaotqTbE,cL0gcCckLjo,lBUT-1XhVS4,I-n2DNawlrw,CWr12At_pEI,-qp5GUS-gss"></div>
+</iframe>
+</body>
+</html>
+</div>

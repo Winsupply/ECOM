@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+Body {border-style: solid;border-width: 20px;border-color: dodgerblue; Z-index: 5;}
+</style>
+</head>
+
+<h2 class="w3-center"></h2>
+
+<div class="w3-content w3-display-right w3-section" style="max-width:700px">
+  <img class="mySlides" src="no2.jpg" style="width:100%">
+  <img class="mySlides" src="no3.jpg" style="width:100%">
+  <img class="mySlides" src="winsupply.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</style>
+<h1><img src="winsupplydayton1.jpg" alt="winsupply" width="600" height="200"><img src="plug.jpg" alt="plug" width="100" height="100" align="right"></h1>
+
+<p></p>
+
+
+<div><iframe width="1200" height="765"
+src="https://www.youtube.com/embed/D3sJXA10obw"></div>
+</iframe>
+</body>
+</html>
+</div>
